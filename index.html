@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wireless Media</title>
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+
+    <!-- it works the same with all jquery version from 1.x to 2.x -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <!-- use jssor.slider.mini.js (40KB) instead for release -->
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/triggers320.js"></script>
+
+
+</head>
+
+<body>
+<div class="topp"></div>
+<div class="header">
+    <div class="nav">
+        <div class="nav-menu-first">
+            <div class="logo">
+                <a href="index.html"><img src="slike/logo.png" width="auto" height="auto"/></a>
+            </div>
+
+        </div>
+        <div class="nav-menu-third">
+
+            <div class="search-button">
+                <div class="menu-trigger">
+                    <a href="#"><img src="slike/menu.png" width="auto" height="auto"></a>
+                </div>
+                <div class="search-trigger">
+                    <a href="#"><img src="slike/search.png" height="auto" width="auto"/></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="nav-menu-second">
+            <div class="menu">
+                <ul class="ul-menu">
+                    <li class="home"><a href="index.html">Home</a></li>
+                    <li class="aboutus"><a href="#">About us</a></li>
+                    <li class="ourwork"><a href="#">Our Work</a></li>
+                    <li class="contact"><a href="#">Contact</a></li>
+                </ul>
+
+            </div>
+            <div class="menu-second">
+                <ul class="ul-menu">
+                    <li class="home"><a href="index.html"><span class="home-second"></span></a></li>
+                    <li class="aboutus"><a href="#"><span class="aboutus-second"></span></a></li>
+                    <li class="ourwork"><a href="#"><span class="ourwork-second"></span></a></li>
+                    <li class="contact"><a href="#"><span class="contact-second"></span></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="search">
+            <input class="search-field" type="text" name="search" placeholder="Search"/>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+
+</div>
+
+<div class="line"><img src="slike/line.png" height="auto" width="100%"/></div>
+<!-- Jssor Slider Begin -->
+
+<div id="slider1_container" style="position: relative; top:-4px; width: 600px; height: 300px; ">
+    <!-- Loading Screen -->
+    <div u="loading" class="loading-main">
+        <div class="loading-first"></div>
+        <div class="loading-second"></div>
+    </div>
+
+
+    <!-- Slides Container -->
+
+    <div u="slides" class="slides" id="slides">
+        <div>
+            <img u="image" src="slike/bg.png" class="bg"/>
+            <div class="logo-icon-background"><img src="slike/logo_icon.png"/></div>
+            <div class="dots-background"><img src="slike/dots.png"/></div>
+            <div class="text-background"><h1>LOREM IPSUM DOLOR SIT</h1></div>
+            <div class="slide-background"><h3>LOREM IPSUM DOLOR SIT </h3></div>
+        </div>
+        <div>
+            <img u="image" src="slike/bg.png" class="bg"/>
+            <div class="logo-icon-background"><img src="slike/logo_icon.png"/></div>
+            <div class="dots-background"><img src="slike/dots.png"/></div>
+            <div class="text-background"><h1>HELLO!</h1></div>
+            <div class="slide-background"><h3>HELLO! </h3></div>
+        </div>
+        <div>
+            <img u="image" src="slike/bg.png" class="bg"/>
+            <div class="logo-icon-background"><img src="slike/logo_icon.png"/></div>
+            <div class="dots-background"><img src="slike/dots.png"/></div>
+            <div class="text-background"><h1>WHAZAAAAPP!</h1></div>
+            <div class="slide-background"><h3>WHAZAAAAPP!</h3></div>
+        </div>
+    </div>
+
+
+    <div u="navigator" class="jssorb05" style="position: absolute; bottom: 16px; right: 6px;">
+        <!-- bullet navigator item prototype -->
+        <div u="prototype" id="prototype" style="POSITION: absolute; WIDTH: 10px; HEIGHT: 16px;"></div>
+    </div>
+
+
+    <!-- Arrow Left -->
+				<span u="arrowleft" class="jssora12l">
+				
+				</span>
+    <!-- Arrow Right -->
+				<span u="arrowright" class="jssora12r">
+				</span>
+    <!-- Arrow Navigator Skin End -->
+
+</div>
+<!-- Jssor Slider End -->
+<div class="content">
+    <h1>WHO WE ARE</h1>
+    <div class="content-first" id="content-first">
+
+        <div class="content-first-left">
+
+            <a href="#"><span class="school"></span></a>
+        </div>
+        <div class="content-first-right">
+            <h4>Lorem ipsum</h4>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <a href="#"><span class="showmore">show more</span></a>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+
+    <div class="content-first">
+
+        <div class="content-first-left">
+            <span class="thumbsup"></span>
+        </div>
+        <div class="content-first-right">
+            <h4>Lorem ipsum</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <a href="#"><span class="showmore">show more</span></a>
+        </div>
+    </div>
+    <h1 style="float:left;">What we do</h1>
+    <div class="content-third" id="content-third">
+
+        <div class="content-third-left-up">
+            <span class="calculator"></span>
+        </div>
+        <div class="content-third-right-up">
+            <span class="cloud"></span>
+        </div>
+
+
+        <div class="content-third-left-down">
+            <span class="watch"></span>
+        </div>
+        <div class="content-third-right-down">
+            <span class="favourite"></span>
+        </div>
+
+        <div style="clear:both;"></div>
+    </div>
+    <div style="clear:both;"></div>
+</div>
+
+<div class="footer" id="footer">
+    <div class="footer-first">
+        <div class="social">
+
+            <a href="https://www.facebook.com/dusan.zivkovic.91"><span class="facebook"></span></a>
+            <a href="https://twitter.com/"><span class="twitter"></span></a>
+            <a href="#"><span class="mail"></span></a>
+
+
+        </div>
+    </div>
+    <div class="footer-second">
+        <div class="footer-menu">
+            <ul class="ul-footer-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#content-first">ABOUT US</a></li>
+                <li><a href="#content-third">OUR WORK</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-third">
+        <a href="#"><span class="up" id="button"></span></a>
+    </div>
+</div>
+
+</body>
+</html>
